@@ -1,0 +1,100 @@
+
+
+.iframe_ht {
+ 	width: 99%;
+ 	height: 490px;
+ 	margin-top: 70px;
+ 	}
+
+@media screen and (max-width: 1060px) {
+	.iframe_ht {
+	height: 425px;
+	}
+}
+
+
+@media screen and (max-width: 715px) {
+.iframe_ht {
+	height: 380px;
+	}
+}
+
+
+@media screen and (max-width: 610px) {
+	.iframe_ht {
+	height: 332px;
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	.iframe_ht {
+	height: 322px;
+	}
+}
+
+
+@media screen and (max-width: 440px) {
+	.iframe_ht {
+	height: 312px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #iframe_home {
+ 	width: 100%;
+ 	height: 490px;
+ 	margin-top: 70px;
+ 	}
+
+@media screen and (max-width: 1060px) {
+	#iframe_home {
+	height: 390px;
+	}
+}
+
+
+@media screen and (max-width: 715px) {
+	#iframe_home {
+	height: 380px;
+	}
+}
+
+
+@media screen and (max-width: 610px) {
+	#iframe_home {
+	height: 332px;
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	#iframe_home {
+	height: 312px;
+	}
+}
+
+
+@media screen and (max-width: 440px) {
+	#iframe_home {
+	height: 302px;
+	}
+}

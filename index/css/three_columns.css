@@ -1,0 +1,483 @@
+
+   /*three columns styling*/
+
+
+      /*     HOME PAGE  */
+
+
+ #home_three_container {
+  /*margin-bottom: 300px;*/
+}
+
+#home_three_container img {
+  border: 1px solid black;
+  max-width: 300px;
+}
+
+#home_three_container h2 {
+	font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+#home_three_container p {
+	font-weight: normal;
+  	font-size: 1em;
+    line-height: 1.4em;
+  	text-transform: none;
+  	margin-top: 15px;
+  	/*color: #595959;*/
+  	color: #000;
+}
+
+
+
+
+#for_students,
+#for_teachers,
+#our_vision {
+  max-width: 300px;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 210px;
+  display: block;
+  }
+
+/*
+#for_students {
+  margin-top: 50px;
+}*/
+
+/*
+@media screen and (min-width: 860px) {
+#for_students,
+#for_teachers,
+#our_vision {
+  text-align: center;
+  margin-left: 4px;
+  margin-right: 4px;
+  display: block;
+  }
+}*/
+
+@media screen and (min-width: 860px) {
+#home_three_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+#for_students,
+#for_teachers,
+#our_vision {
+  /*min-width: 280px;*/
+  /*width: 82%;*/
+  height: 70px;
+  margin-top: 80px;
+  display: inline-block;
+   margin-left: 4px;
+  margin-right: 4px;
+  }
+}
+
+
+
+
+
+
+      /*     FOR_STUDENTS PAGE  */
+
+
+ #students_three_container {
+  text-align: center;
+}
+
+#students_three_container img {
+  border: 1px solid black;
+  max-width: 300px;
+}
+
+#students_three_container h2 {
+  font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#students_three_container p {
+  font-weight: normal;
+    font-size: 1em;
+    line-height: 1.4em;
+    text-transform: none;
+    margin-top: 16px;
+    /*color: #595959;*/
+    color: #000;
+}
+
+
+
+#students_col_1,
+#students_col_2,
+#students_col_3 {
+  min-width: 280px;
+  width: 20%;
+  height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: block;
+  }
+
+#students_col_1 {
+  margin-top: 60px;
+  margin-bottom: 300px;
+}
+
+
+#students_col_2 {
+  margin-bottom: 300px;
+}
+
+#students_col_3 {
+  margin-bottom: 210px;
+}
+
+
+@media screen and (min-width: 860px) {
+#students_three_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+#students_col_1,
+#students_col_2,
+#students_col_3 {
+  width: 22%;
+  height: 70px;
+  margin-top: 80px;
+  margin-left: 2px;
+  margin-right: 2px;
+  display: inline-block;
+  }
+}
+
+
+
+
+
+      /*     FOR_TEACHERS PAGE  */
+
+
+ #teachers_three_container {
+  text-align: center;
+}
+
+#teachers_col_1 img,
+#teachers_col_2 img,
+#teachers_col_3 img {
+  border: 1px solid black;
+  max-width: 300px;
+}
+
+#teachers_col_1 h2,
+#teachers_col_2 h2,
+#teachers_col_3 h2 {
+  font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+#teachers_col_1 p,
+#teachers_col_2 p,
+#teachers_col_3 p {
+  font-weight: normal;
+    font-size: 1em;
+    line-height: 1.4em;
+    text-transform: none;
+    margin-top: 15px;
+    color: #595959;
+}
+
+
+
+#teachers_col_1,
+#teachers_col_2,
+#teachers_col_3 {
+  max-width: 300px;
+  width: 80%;
+  height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 210px;
+  display: block;
+  }
+
+@media screen and (min-width: 861px) {
+#teachers_three_container {
+   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+#teachers_col_1,
+#teachers_col_2,
+#teachers_col_3 {
+  /*min-width: 280px;*/
+  width: 82%;
+  height: 70px;
+  margin-top: 40px;
+  display: inline-block;
+   margin-left: 4px;
+  margin-right: 4px;
+  }
+}
+
+
+      /*TEACHER QUOTES  */
+
+
+
+ #teacherquotes_container {
+  text-align: center;
+}
+
+
+
+#teacherquotes_col_1 p,
+#teacherquotes_col_2 p,
+#teacherquotes_col_3 p {
+  font-weight: normal;
+  /*width: 100%;*/
+  /*max-width: 250px;*/
+    font-size: 1em;
+    line-height: 1.4em;
+    text-transform: none;
+    margin-top: 25px;
+    color: #000;
+}
+
+
+
+#teacherquotes_col_1,
+#teacherquotes_col_2,
+#teacherquotes_col_3 {
+  max-width: 300px;
+  width: 80%;
+  /*height: 70px;*/
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    display: block;
+    border-bottom: 1px solid black;
+  }
+
+@media screen and (min-width: 861px) {
+#teacherquotes_container {
+   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+#teacherquotes_col_1,
+#teacherquotes_col_2,
+#teacherquotes_col_3 {
+  /*min-width: 280px;*/
+  width: 82%;
+  /*height: 70px;*/
+  margin-top: -24px;
+  display: inline-block;
+   margin-left: 4px;
+  margin-right: 4px;
+  border: none;
+  }
+}
+
+
+
+
+
+       /*VISION COLUMNS   */
+
+
+
+
+ #vision_three_container {
+  text-align: center;
+}
+
+#vision_col_1 img,
+#vision_col_2 img,
+#vision_col_3 img {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 300px;
+}
+
+#vision_col_1 h2,
+#vision_col_2 h2,
+#vision_col_3 h2 {
+  font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#vision_col_1 p,
+#vision_col_2 p,
+#vision_col_3 p {
+  font-weight: normal;
+    font-size: 1em;
+    line-height: 1.4em;
+    text-transform: none;
+    margin-top: 15px;
+    color: #595959;
+}
+
+
+
+#vision_col_1,
+#vision_col_2,
+#vision_col_3 {
+  max-width: 300px;
+  width: 80%;
+  height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 210px;
+  display: block;
+  }
+
+@media screen and (min-width: 861px) {
+#vision_three_container {
+   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+#vision_col_1,
+#vision_col_2,
+#vision_col_3 {
+  max-width: 280px;
+  /*width: 100%;*/
+  height: 70px;
+  margin-top: 40px;
+  display: inline-block;
+   margin-left: 4px;
+  margin-right: 4px;
+  }
+}
+
+
+
+  /*FOR PARTNERS PAGE  */
+
+
+
+      /*     FOR_STUDENTS PAGE  */
+
+
+ #partners_three_container {
+  text-align: center;
+}
+
+#partners_three_container img {
+  border: 1px solid black;
+  max-width: 300px;
+}
+
+#partners_three_container h2 {
+  font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+#partners_three_container p {
+  font-weight: normal;
+    font-size: 1em;
+    line-height: 1.4em;
+    text-transform: none;
+    margin-top: 15px;
+    /*color: #595959;*/
+    color: #000;
+}
+
+
+
+#partners_col_1,
+#partners_col_2,
+#partners_col_3 {
+  min-width: 280px;
+  width: 20%;
+  height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 190px;
+  display: block;
+  }
+
+#partners_col_1 a,
+#partners_col_2 a,
+#partners_col_3 a {
+  color: #c10000;
+  font-weight: bold;
+}
+
+  #partners_col_1 {
+    margin-top: 54px;
+  }
+
+@media screen and (min-width: 860px) {
+#partners_three_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+#partners_col_1,
+#partners_col_2,
+#partners_col_3 {
+  width: 22%;
+  height: 70px;
+  margin-top: 80px;
+  margin-left: 2px;
+  margin-right: 2px;
+  display: inline-block;
+  }
+}

@@ -1,0 +1,194 @@
+body{
+	   background:
+linear-gradient(100deg,
+ #330000, transparent 70%),
+            linear-gradient(300deg,
+ #330000, transparent 59%), #fff url(../images/rally2.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.rw-wrapper{
+	width: 80%;
+	position: relative;
+	margin: 0px auto 0 auto;
+	padding: 10px;
+}
+.rw-sentence{
+	margin: 0;
+}
+.rw-sentence span{
+	text-align: center;
+	color: rgba(255,255,255,1);
+	font-family: 'Trocchi';
+	white-space: nowrap;
+	text-shadow: 2px 5px 10px rgba(0,0,0,0.1);
+}
+.rw-sentence > span{
+	position: absolute;
+}
+.rw-sentence > span:first-child{
+	top: 20px;
+	left: 40px;
+	font-size: 350%;
+	/*color: rgba(187,177,168,0.6);*/
+	color: #fff;
+	 text-shadow: 7px 7px  #000;
+}
+.rw-sentence > span:nth-child(2){
+	top: 130px;
+	left: 200px;
+	font-size: 315%;
+	/*color: rgba(191,218,206, 0.7);*/
+	color: #fff;
+	 text-shadow: 7px 7px  #000;
+}
+.rw-sentence > span:nth-child(3){
+	top: 240px;
+	left: 390px;
+	font-size: 315%;
+	/*color: rgba(255,255,255,0.8);*/
+	color: #fff;
+}
+.rw-sentence > span:last-child{
+	top: 435px;
+	left: 550px;
+	font-size: 200%;
+	color: rgba(237,234,168, 0.9);
+}
+.rw-words{
+	position: absolute;
+	left: 200px;
+right: 0;
+margin: auto;
+
+	/*left: 120px;*/
+	top: 330px;
+	height: 80px;
+	/*width: 400px;*/
+	-webkit-perspective: 800px;
+	perspective: 800px;
+}
+.rw-words span{
+	position: absolute;
+	left: 0;
+right: 0;
+margin: auto;
+
+	font-size: 400%;
+	/*color: transparent;
+	text-shadow: 0px 0px 80px rgba(255,255,255,1);*/
+	           color: yellow;
+				/*text-shadow: 25px 25px 80px rgba(255,255,255,1);*/
+				text-shadow: 7px 7px 7px #000;
+	opacity: 0;
+	-webkit-animation: rotateWord 9.5s linear infinite 0s;
+	-ms-animation: rotateWord 9.5s linear infinite 0s;
+	animation: rotateWord 9.5s linear infinite 0s;
+}
+.rw-words span:nth-child(2) {
+    -webkit-animation-delay: 3s;
+	-ms-animation-delay: 3s;
+	animation-delay: 3s;
+}
+.rw-words span:nth-child(3) {
+    -webkit-animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	animation-delay: 6s;
+}
+
+
+/*
+.rw-words span:nth-child(4) {
+    -webkit-animation-delay: 9s;
+	-ms-animation-delay: 9s;
+	animation-delay: 9s;
+}*/
+/*
+.rw-words span:nth-child(5) {
+    -webkit-animation-delay: 12s;
+	-ms-animation-delay: 12s;
+	animation-delay: 12s;
+}
+.rw-words span:nth-child(6) {
+    -webkit-animation-delay: 15s;
+	-ms-animation-delay: 15s;
+	animation-delay: 15s;
+}
+*/
+@-webkit-keyframes rotateWord {
+    0% { opacity: 0; -webkit-animation-timing-function: ease-in; -webkit-transform: translateY(-200px) translateZ(300px) rotateY(-120deg); }
+    5% { opacity: 1; -webkit-animation-timing-function: ease-out; -webkit-transform: translateY(0px) translateZ(0px) rotateY(0deg); }
+	6% { text-shadow: 0px 0px 0px rgba(255,255,255,1); color: #fff; }
+    17% { opacity: 1; text-shadow: 0px 0px 0px rgba(255,255,255,1); color: #fff; }
+    20% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes rotateWord {
+    0% { opacity: 0; -ms-animation-timing-function: ease-in; -ms-transform: translateY(-200px) translateZ(300px) rotateY(-120deg); }
+    5% { opacity: 1; -ms-animation-timing-function: ease-out; -ms-transform: translateY(0px) translateZ(0px) rotateY(0deg); }
+	6% { text-shadow: 0px 0px 0px rgba(255,255,255,1); color: #fff; }
+    17% { opacity: 1; text-shadow: 0px 0px 0px rgba(255,255,255,1); color: #fff; }
+    20% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWord {
+    0% { opacity: 0; -webkit-animation-timing-function: ease-in; animation-timing-function: ease-in; -webkit-transform: translateY(-200px) translateZ(300px) rotateY(-120deg); transform: translateY(-200px) translateZ(300px) rotateY(-120deg); }
+    5% { opacity: 1; -webkit-animation-timing-function: ease-out; animation-timing-function: ease-out; -webkit-transform: translateY(0px) translateZ(0px) rotateY(0deg); transform: translateY(0px) translateZ(0px) rotateY(0deg); }
+	/*6% { text-shadow: 0px 0px 0px rgba(255,255,255,1); color: #fff; }
+    17% { opacity: 1; text-shadow: 0px 0px 0px rgba(255,255,255,1); color: #fff; }*/
+
+    		/*6% { text-shadow: 7px 17x 47px #000; color:  #fff;}*/
+    		17% { opacity: 1; text-shadow: 7px 7px 7px #000; color:  #ffbf00;}
+
+    20% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@media screen and (max-width: 1060px){
+	.rw-sentence > span:first-child { font-size: 250%; top: 30px; left: 0px;}
+	.rw-sentence > span:nth-child(2) { font-size: 200%; top: 115px; left: 90px; }
+	.rw-sentence > span:nth-child(3) { top: 195px; left: 290px; font-size: 200%; }
+	.rw-words { left: 10px; top: 261px; }
+	.rw-words span { font-size: 310%; }
+	.rw-sentence > span:last-child { top: 310px; left: 30px; }
+
+}
+
+
+@media screen and (max-width: 715px){
+	.rw-sentence > span:first-child { font-size: 190%; left: 0px;}
+	.rw-sentence > span:nth-child(2) { font-size: 170%; top: 101px; left: 110px; }
+	.rw-sentence > span:nth-child(3) { top: 166px; left: 210px; font-size: 170%; }
+	.rw-words { left: 5px; top: 220px; }
+	.rw-words span { font-size: 290%; }
+	.rw-sentence > span:last-child { top: 16px; left: 10px; font-size: 100%; }
+}
+
+
+@media screen and (max-width: 610px){
+	.rw-sentence > span:first-child { font-size: 160%; left: 0px;}
+	.rw-sentence > span:nth-child(2) { font-size: 140%; top: 101px; left: 110px; }
+	.rw-sentence > span:nth-child(3) { top: 166px; left: 210px; font-size: 140%; }
+	.rw-words { left: 5px; top: 216px; }
+	.rw-words span { font-size: 230%; }
+	.rw-sentence > span:last-child { top: 16px; left: 10px; font-size: 100%; }
+}
+
+
+@media screen and (max-width: 500px){
+	.rw-sentence > span:first-child { font-size: 160%; left: 0px;}
+	.rw-sentence > span:nth-child(2) { font-size: 140%; top: 101px; left: 50px; }
+	.rw-sentence > span:nth-child(3) { top: 166px; left: 120px; font-size: 140%; }
+	.rw-words { left: -5px; top: 216px; }
+	.rw-words span { font-size: 220%; }
+	.rw-sentence > span:last-child { top: 16px; left: 10px; font-size: 100%; }
+}
+
+
+@media screen and (max-width: 440px){
+	.rw-sentence > span:first-child { font-size: 110%; left: 0px;}
+	.rw-sentence > span:nth-child(2) { font-size: 100%; top: 101px; left: 50px; }
+	.rw-sentence > span:nth-child(3) { top: 166px; left: 120px; font-size: 100%; }
+	.rw-words { left: -5px; top: 216px; }
+	.rw-words span { font-size: 120%; }
+	.rw-sentence > span:last-child { top: 106px; left: 10px; font-size: 100%; }
+}
